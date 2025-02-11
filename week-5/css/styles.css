@@ -1,0 +1,78 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+#box-model {
+    background-color: lightslategray;
+    padding: 10px;
+    border: 3px solid brown;
+    margin: 10px;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content is used for horizontal alignment in rows */
+    justify-content: space-evenly;
+    /* aling-tems is used for vertical alignment */
+    align-items: center;
+}
+
+#flexbox p {
+    width: 200px;
+    border: 1px solid aquamarine;
+}
+
+nav {
+    background-color: darkblue;
+    border: 2px solid black;
+}
+
+nav ul {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Shift to Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 10px;
+}
+
+.grid p {
+    border: 1px solid black;
+    margin: 0;
+}
+
+.row-2 {
+    grid-row: span 2;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
