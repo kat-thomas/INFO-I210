@@ -9,3 +9,7 @@ Key Takeaways include how to create arrays, for loops, and edit the document fro
 - the for loop will run each process for each number
 - because of this, use a function to complete a single step action
 - edit the height of an image from within the img tag string, not in a seperate javascript command
+
+# Project Live Link
+
+https://kat-thomas.github.io/INFO-I210/homework-3
