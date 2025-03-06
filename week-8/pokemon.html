@@ -21,16 +21,21 @@
       </ul>
     </nav>
 
-    <h1>Home</h1>
+    <!-- Main is used to wrap main content -->
+    <main>
+      <h1>Window Methods (Pokemon)</h1>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit iusto
-      similique iste est in soluta nemo corrupti. Sint adipisci ratione sunt
-      ipsum maxime, repellat at asperiores accusantium placeat a dicta.
-    </p>
+      <button onclick="showAlert()">Alert</button>
+      <button id="confirm-btn">Confirm</button>
+      <button onclick="showPrompt()">Prompt</button>
 
-    <ul id="pets"></ul>
+      <div>
+        <button onclick="startJourney()">Start Journey</button>
 
-    <script src="js/home.js"></script>
+        <section id="journey"></section>
+      </div>
+    </main>
+
+    <script src="js/pokemon.js"></script>
   </body>
 </html>
