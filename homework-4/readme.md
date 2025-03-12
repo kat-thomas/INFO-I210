@@ -9,3 +9,5 @@ _It is March 20, 1963 for everyone in the world. But for one person, it never st
 My key takeaway is that I learned a lot about how for loops and functions work. I also learned a lot about keeping track of variables, as that got kind of confusing. I was able to troubleshoot and improvise problems (like my options being undefined or my "Proceed" button not working) all while creating a fun story! If I was to do this again in the future though, I would have a clearer track of the events and routes I wanted the story to take.
 
 # Live Link
+
+https://kat-thomas.github.io/INFO-I210/homework-4
