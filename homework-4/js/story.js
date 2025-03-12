@@ -86,7 +86,7 @@ function chooseActionTwo(e) {
   }
   if (secondAction == "turn on the TV") {
     journeyRef.innerHTML +=
-      "<p>The TV static slowly turns into a picture as you find the right channel. A blurry image of your local newcaster stutters through the forecast for the upcoming week. After claiming it would be 70 degrees this Friday, his face grows solemn. 'Orange. Rock. Nightly News.' he says in a ton he never had before. The words don't make sense to you, so you ignore them as the program seems to go back to normal.</p>";
+      "<p>The TV static slowly turns into a picture as you find the right channel. A blurry image of your local newcaster stutters through the forecast for the upcoming week. After claiming it would be 70 degrees this Friday, his face grows solemn. 'Orange. Rock. Nightly News.' he says in a tone he never had before. The words don't make sense to you, so you ignore them as the program seems to go back to normal.</p>";
     stepThree();
   }
   if (secondAction == "sit in silence") {

@@ -45,3 +45,11 @@ div button {
   color: #ffff;
   font-size: 15px;
 }
+
+div {
+  padding: 30px;
+}
+
+div p {
+  width: 1000px;
+}
