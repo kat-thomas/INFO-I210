@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: #ffff;
+  background-color: #f8a3cf;
+  padding: 10px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  margin: 10px 30px;
+  background-color: #f8a3cf;
+  padding: 5px;
+  border: #ee7ab6;
+  color: #ffff;
+  font-size: 25px;
+}
+
+div {
+  padding: 10px 30px;
+}
+
+div button {
+  margin: 10px 30px;
+  background-color: #f8a3cf;
+  padding: 5px;
+  border: #ee7ab6;
+  color: #ffff;
+  font-size: 15px;
+}
