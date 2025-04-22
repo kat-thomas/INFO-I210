@@ -34,6 +34,11 @@ async function addNewDream(e) {
   e.preventDefault();
 
   const dreamTextValue = dreamTextRef.value;
+
+if (dreamTextValue.trim() === "") {
+  alert("Please enter a valid dream")
+} else {
+
   const newDream = await addDoc(HADCollection, { text: dreamTextValue });
 
   console.log(newDream);
@@ -41,6 +46,7 @@ async function addNewDream(e) {
   getHAD();
 
   newHADRef.reset();
+}
 }
 
 newHADRef.onsubmit = addNewDream;
